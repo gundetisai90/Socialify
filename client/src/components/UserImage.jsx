@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://socialify-three.vercel.app/assets/${image}`}
+        src={`/assets/${image}`}
       />
     </Box>
   );
